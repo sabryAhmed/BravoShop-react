@@ -36,7 +36,7 @@ function DummyDetalsAPI() {
             <p className='L' >{singleproDummy.description}</p>
             <p className='L'>{singleproDummy.category}</p>
             <p className='text-danger fs-4 '> ${singleproDummy.price}</p>
-            <button className='btn btn-primary w-75'> pacet</button>
+            
           </div>
         </div>
       </div>

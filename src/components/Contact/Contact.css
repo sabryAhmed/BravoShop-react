@@ -1,0 +1,72 @@
+.Contact form{
+    background-color: var( --c-color) !important;
+    height: 70vh !important;
+    padding: 20px !important;
+}
+.Contact h1{
+    color: var(--d-color);
+}
+.Contact{
+    width: 100%;
+}
+.Contact form textarea {
+    background-color: var(--body-color) !important;
+    height: 50vh;
+}
+.Contact form input{
+    background-color: var(--body-color) !important;
+    padding: 10px;
+    border: transparent;
+    color: var(  --d-color);
+
+}
+.Contact form input::placeholder{
+    text-transform: capitalize;
+}
+.Contact textarea{
+    color: var(  --d-color);
+}
+.Contact span{
+    color: var(--main-color);
+}
+.Contact .box{
+    padding: 12px 15px ;
+    background-color: var( --c-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+}
+.Contact .box div{
+font-weight: bolder;
+font-size: 16px;
+color: var(--main-color);
+display: flex;
+
+gap: 20px;
+}
+.Contact .box div span{
+    color: black !important;
+
+}
+.Contact .i{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.Contact form button{
+    background-color: var(--main-color);
+    padding: 10px 20px;
+    border: transparent;
+    width: 30%;
+}
+.Contact form button:hover{
+   background-color: transparent;
+   border: 1px solid var(--main-color);
+}

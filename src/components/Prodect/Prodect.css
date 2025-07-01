@@ -1,0 +1,71 @@
+
+
+
+.Prodect .card-star{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    
+}
+.Prodect .card-star{
+    text-align: center;
+    display: flex;
+    gap: 2px;
+    align-items: center ;
+    justify-content: center;
+}
+.Prodect .card-img{
+    overflow: hidden;
+}
+.Prodect .card-img img{
+   height: 200px;
+   transition: 1.5s ease-out;
+   -webkit-transition: 1.5s ease-out;
+   -moz-transition: 1.5s ease-out;
+   -ms-transition: 1.5s ease-out;
+   -o-transition: 1.5s ease-out;
+}
+.Prodect .card-img img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.Prodect  .card .proccess{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+}
+.Prodect  .card .proccess div{
+    text-align: center;
+    font-size: 1.2rem;
+    height: 30px;
+    width:  30px;
+    background-color: var(--main-color);
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    color: var( --c-color) ;
+    cursor: pointer;
+    transition:1s ease ;
+    -webkit-transition:1s ease ;
+    -moz-transition:1s ease ;
+    -ms-transition:1s ease ;
+    -o-transition:1s ease ;
+}
+.Prodect  .card .proccess div:hover{
+   background-color: black;
+   color: red;
+   
+}
+.Prodect  .card .proccess div:active{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}

@@ -1,0 +1,27 @@
+.footer{
+
+   
+    background-color: #343a40;
+ 
+   
+}
+
+.cardss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+color: var( --c-color)  !important;
+}
+
+.footer .cardss strong{
+    font-size: larger;
+    font-weight: bolder;
+}
+.footer .cardss .one a{
+    font-size: 1.2rem;
+    font-weight: bolder;
+color: var( --c-color)  !important;
+
+}

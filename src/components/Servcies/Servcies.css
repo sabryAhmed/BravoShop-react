@@ -1,0 +1,16 @@
+.Servcies .one{
+ display: flex;
+ align-items: center;
+ gap:20px;
+ padding: 20px;
+ background-color:var( --c-color);
+ font-weight: bolder ;
+ 
+}
+.Servcies .one p{
+    margin: 0;
+}
+.Servcies .one .ico{
+    font-size: 25px;
+    color: var(--main-color);
+}

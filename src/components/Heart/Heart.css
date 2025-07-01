@@ -1,0 +1,47 @@
+.Heart{
+    text-align: center;
+    width: 100%;
+}
+.Heart img{
+   width: clamp(150px,50vw,200px);
+   height: clamp(150px,50vw,200px);
+}
+.Heart .card{
+    overflow: hidden;
+}
+.Heart .card-ico{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+    
+    gap: 20px;
+}
+.Heart .card-ico div{
+    padding: 5px;
+    border-radius: 5px ;
+    font-weight: bolder;
+    text-align: center;
+    color: var( --c-color);
+    border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+    cursor: pointer;
+}
+.Heart .card-ico div:active{
+    background-color:var(--c-color);
+    border: 1px solid black;
+    color: black;
+}
+.Heart .card-ico div:nth-of-type(1){
+    background-color:red;
+}
+.Heart .card-ico div:nth-of-type(2){
+   
+   
+    background-color:var(--main-color);
+   
+}

@@ -1,0 +1,18 @@
+.Media {
+    margin: auto !important;
+    background-color: var( --c-color) !important;
+    width: 100% !important;
+}
+.slid{
+    width: 100% !important;
+
+}
+.slid div{
+   
+    text-align: center;
+}
+.slid div img{
+    width: 250px !important;
+    height: 200px !important;
+    
+}

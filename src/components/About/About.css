@@ -1,0 +1,40 @@
+.About .card{
+    width:400px !important;
+
+}
+.About  .one img{
+    width: 40vw !important;
+
+}
+.About{
+    text-transform: capitalize !important;
+}
+.About .card:not(p){
+    font-weight: bolder !important;
+
+}
+.About .card{
+    width:clamp(1.125rem,80cqi,25rem)!important; 
+   background-color: transparent !important;
+   border: transparent;
+   font-size: clamp(1.2rem, 2cqi,1.125rem);
+}
+.About .card button{
+    width: 35%;
+    padding: 10px;
+   
+    border: 2px solid  var(--main-color);
+}
+.About .card button:hover{
+    color: green;
+    background-color: var(--main-color);
+    border: 2px solid  var( --c-color);
+}
+.About span{
+    color: var(--main-color);
+}
+
+.About .L{
+    color: var(--d-color);
+}
+

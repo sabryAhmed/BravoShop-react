@@ -1,0 +1,64 @@
+.CartShop img{
+    width: 100px;
+
+   height: 60px;
+}
+.CartShop .d{
+    display: flex;
+gap: 100px;
+}
+.CartShop .pas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    
+    border-radius: 5px;
+   
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.CartShop .card-plus p{
+    cursor: pointer;
+   
+    font-weight: bolder;
+    background-color: var(--d-color);
+    padding: 1px 5px ;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color:black;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.CartShop .totall{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.CartShop .card-plus p{
+    color: var(--s-color);
+    
+}
+@media screen and (max-width: 440px){
+
+    .CartShop .pas{
+        flex-direction: column !important;
+    }
+    .CartShop img{
+        width: 100%;
+    }
+}
+.CartShop .totall strong , .L{
+    color: var(--d-color) !important;
+
+}

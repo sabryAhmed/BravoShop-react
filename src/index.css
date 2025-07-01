@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Hentaigana:wght@200..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+main{
+    font-family: "Tajawal", sans-serif;
+    background-color: var(--body-color) !important;
+   
+}
+:root{
+    --main-color: #cece2b;
+    --body-color:#eee;
+    --bg-mood:aqua;
+    --c-color: white;
+    --d-color:black;
+    --s-color:white;
+}
+.dark{
+    --bg-mood:rgb(255, 255, 255);
+    --body-color:#000;
+    --d-color:white;
+    --s-color:black;
+
+}
+
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+.mood{
+    font-size: 20px;
+    color: var(--bg-mood);
+    animation: mood  1.5s  ease-in-out  infinite  ;
+    -webkit-animation: mood  1.5s  ease-in-out  infinite  ;
+    cursor: pointer;
+    
+}
+
+
+@keyframes mood{
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+    
+}

@@ -1,0 +1,10 @@
+.Categories .one{
+    background-color: var( --c-color);
+}
+.Categories p{
+    color: var(--main-color) !important;
+}
+.Categories .one img{
+    height: 70px;
+   width: 70px;
+}

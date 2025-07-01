@@ -1,0 +1,48 @@
+.FaceAPI img {
+    height: 200px;
+    width: 200px;
+}
+.FaceAPI .pro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.FaceAPI .L{
+    color: var(  --d-color);
+}
+.FaceAPI .pro div{
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid black;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: var(--main-color);
+    color: var( --c-color);
+}
+.FaceAPI .pro div:active{
+    background-color: red;
+    color: var( --c-color);
+    
+}
+
+
+/* .FaceAPI .card-btn .btn{
+    margin-top: 10px !important;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid  var(--main-color);
+    text-transform: capitalize;
+    font-weight: 500;
+    transition: 1.2s;
+    -webkit-transition: 1.2s;
+    -moz-transition: 1.2s;
+    -ms-transition: 1.2s;
+    -o-transition: 1.2s;
+}
+.FaceAPI .card-btn .btn:hover{
+    background-color:var(--main-color);
+
+} */

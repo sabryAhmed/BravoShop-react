@@ -256,7 +256,7 @@ function darkmood(){
             <Route path='DummayApi/:id' element={<DummyDetalsAPI addTocard={addTocard}  AddToheart={AddToheart} />}/>
             <Route path='CartShop' element={<CartShop cart={cart} Deletpro={Deletpro}  increaseAmount={increaseAmount} decreaseAmount={decreaseAmount}/>}/>
             <Route path='Heart' element={<Heart heart={heart}  addTocard={addTocard} removefromheart={removefromheart}/>   } />
-            <Route path='*' element={<PageError/>}/>
+            <Route path='*' element={<Home/>}/>
             </Routes>
             <Footer/>
             </BrowserRouter>
